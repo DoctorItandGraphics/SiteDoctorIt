@@ -63,7 +63,7 @@ a .fa-linkedin:focus {
 
 .body-index {
   background-color        : #000000;
-  background-image        : linear-gradient(315deg, #ffffff57 0%, #0000003d 74%), url("../images/HomePage-4.jpg");
+  background-image        : linear-gradient(315deg, #ffffff57 0%, #0000003d 74%), url("../images/back-possible.jpg");
   /* background-image     : linear-gradient(45deg, rgba(144, 48, 61, 0.801), rgba(35, 4, 68, 0.686)), url("../images/HomePage-4.jpg"); */
   background-size         : cover;
   background-attachment   : fixed;
@@ -278,9 +278,16 @@ header .menu .menu-text {
   background-color: #DA727E;
 }
 
-.w3-dark-grey {
+.gradient-overall {
   color           : #fff !important;
-  background-image: linear-gradient(-45deg, #90303d, #230444);
+  background-image: linear-gradient(200deg, #7bfaf399, #230444);
+  background-color: #002aff00 !important;
+}
+
+.gradient-progress{
+  color           : #fff !important;
+  background-image: linear-gradient(200deg, #7bfaf399, #230444);
+  background-color: #838383 !important;
 }
 
 .w3-cell:hover {
