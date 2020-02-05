@@ -54,13 +54,6 @@ a .fa-linkedin:focus {
   color: white;
 }
 
-#about-body {
-  background-image     : url("../images/contactus.jpg");
-  background-size      : cover;
-  background-attachment: fixed;
-  background-position  : center;
-}
-
 .body-index {
   background-color        : #000000;
   background-image        : linear-gradient(315deg, #ffffff57 0%, #0000003d 74%), url("../images/back-possible.jpg");
@@ -110,14 +103,6 @@ a .fa-linkedin:focus {
   color : #ffac62;
 }
 
-
-.contact-us-body {
-  background-image     : url("../images/contactus.jpg");
-  background-size      : cover;
-  background-attachment: fixed;
-  background-position  : center;
-}
-
 .footerSocialIcons {
   display: inline-flex;
   margin : 0 .5em;
@@ -151,15 +136,26 @@ header a:hover {
   font-weight: bold;
 }
 
-header a:active {
-  color      : #000336;
-  font-weight: bold;
-}
-
 header a:focus {
   color      : #000336;
   font-weight: bold;
 }
+
+header a:active {
+  color      : #caccff;
+  font-weight: bold;
+}
+
+header li a:active {
+  color      : #caccff;
+  font-weight: bold;
+}
+
+header :target {
+  color: yellow;
+}
+
+
 
 header .menu .menu-text {
   padding: 0.7rem 0rem;
@@ -194,6 +190,16 @@ header .menu .menu-text {
   color              : white;
 }
 
+.pages-background {
+  background-image        : linear-gradient(90deg, white, #ffffff00, white), url("../images/contactus.jpg");
+  /* background-size      : cover;
+  background-attachment   : fixed; */
+  background-position     : top center;
+  background-repeat       : no-repeat;
+  background-attachment   : fixed;
+  background-size         : 100%;
+}
+
 .reveal {
   width    : 55%;
   max-width: 30rem;
@@ -206,13 +212,6 @@ header .menu .menu-text {
   width          : 95%;
   max-width      : 900px;
   margin         : 0 auto;
-}
-
-#services-body {
-  background-image     : url("../images/contactus.jpg");
-  background-size      : cover;
-  background-attachment: fixed;
-  background-position  : center;
 }
 
 .single-services .lnr {
@@ -229,6 +228,15 @@ header .menu .menu-text {
 
 .top-bar ul {
   background-color: transparent;
+}
+
+.workMainExample {
+  opacity: 50%;
+
+}
+
+.workMainExample:hover {
+  opacity: 100%;
 }
 
 .wrap-body {
@@ -284,7 +292,7 @@ header .menu .menu-text {
   background-color: #002aff00 !important;
 }
 
-.gradient-progress{
+.gradient-progress {
   color           : #fff !important;
   background-image: linear-gradient(200deg, #7bfaf399, #230444);
   background-color: #838383 !important;
