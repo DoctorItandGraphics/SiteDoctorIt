@@ -54,6 +54,13 @@ a .fa-linkedin:focus {
   color: white;
 }
 
+#about-body {
+  background-image     : url("../images/contactus.jpg");
+  background-size      : cover;
+  background-attachment: fixed;
+  background-position  : center;
+}
+
 .body-index {
   background-color        : #000000;
   background-image        : linear-gradient(315deg, #ffffff57 0%, #0000003d 74%), url("../images/HomePage-4.jpg");
@@ -62,7 +69,6 @@ a .fa-linkedin:focus {
   background-attachment   : fixed;
   background-position     : left center;
 }
-
 
 .button.success {
   background-color: #F8AB05;
@@ -85,7 +91,7 @@ a .fa-linkedin:focus {
 }
 
 .button-gradient:hover {
-  color     : #ececec!important;
+  color     : #ececec !important;
   background: linear-gradient(200deg, #7bfaf399, #230444);
 }
 
@@ -200,6 +206,13 @@ header .menu .menu-text {
   width          : 95%;
   max-width      : 900px;
   margin         : 0 auto;
+}
+
+#services-body {
+  background-image     : url("../images/contactus.jpg");
+  background-size      : cover;
+  background-attachment: fixed;
+  background-position  : center;
 }
 
 .single-services .lnr {
